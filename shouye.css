@@ -15,15 +15,16 @@ body{
 	position: fixed;
 	right: 0px;
 	top: 100px;
-	z-index: 60;
 }
 .box li{
 	position: relative;
 	right: -95px;
+	margin-bottom:5px;
 }
 .box ul li:first-child{/*控制第一个li标签*/
 	height: 100px;
 	right: -95px;
+	margin-bottom:10px;
 }
 .box ul li:first-child img{
 	display: block;
@@ -59,11 +60,11 @@ body{
 	height: 150px;
 	background: url('任务所需小图/img/bg.png');
 }
-.box .app img:nth-child(3){
+.box .app .serwei{
 	margin-left: 10px;
 	display: inline-block;
 }
-.box.app img:nth-child(4){
+.box.app .cart_1{
 	margin-left: 10px;
 }
 
@@ -92,7 +93,7 @@ body{
 	width:90px;
 	height:20px;  
 	/*border: 1px solid red;*/
-	margin-left:80px; 
+	margin-left:40px; 
 	font-size:11px; 
 	line-height:20px; 
 	display: inline-block;
@@ -212,7 +213,7 @@ body{
 	border: solid 1px;
 }
 .pic{
-	margin-left: 80px;
+	margin-left:40px;
 	cursor: pointer;
 	/*border: 1px solid red;*/
 	width: 140px;
@@ -365,6 +366,7 @@ body{
 	border-bottom:1px solid #FF4500 ;
 	margin-bottom:10px;
 	height:38px;
+	width: 100%;
 }
 .botto{
 	width: 900px;
